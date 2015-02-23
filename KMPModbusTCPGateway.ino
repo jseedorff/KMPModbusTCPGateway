@@ -1,4 +1,4 @@
-//#define Wireless
+#define Wireless
 
 #include <KMPSoftwareSerial.h>
 #include <Mudbus.h>
@@ -60,7 +60,16 @@ void setup()
   pinMode(PIN_KAMSER_RX,INPUT);
   pinMode(PIN_KAMSER_TX,OUTPUT);
   kamSer.begin(KAMBAUD);
-  
+
+  #ifndef Wireless 
+  // Initialize Ethernet
+  uint8_t mac[]     = { 0x90, 0xA2, 0xDA, 0x00, 0x51, 0x06 };
+  Ethernet.begin(mac);
+
+  // Show Ethernet details
+  printEthernetStatus();
+  #endif
+ 
   #ifdef Wireless
   // Check if the WiFi Shield is present 
   if (WiFi.status() == WL_NO_SHIELD) {
@@ -75,17 +84,9 @@ void setup()
     status = WiFi.begin(ssid, pass);
     delay(1000);
   }
+  printWiFiStatus();
   #endif
-   
-  #ifndef Wireless 
-  // Initialize Ethernet
-  uint8_t mac[]     = { 0x90, 0xA2, 0xDA, 0x00, 0x51, 0x06 };
-  Ethernet.begin(mac);
-
-  // Show Ethernet details
-  printEthernetStatus();
-  #endif
-  
+ 
   // Open the Wifi card for communication
   Mb.Begin();
 }
@@ -340,7 +341,6 @@ void kamSend(byte const *msg, int msgsize) {
   for (int x = 0; x < txsize; x++) {
     kamSer.write(txmsg[x]);
   }
-
 }
 
 /******************************/
@@ -494,7 +494,7 @@ void printEthernetStatus() {
 /**     printWifiStatus      **/
 /**                          **/
 /******************************/
-void printWifiStatus() {
+void printWiFiStatus() {
    // Print the SSID of the network
    Serial.print("SSID: ");
    Serial.println(WiFi.SSID());
