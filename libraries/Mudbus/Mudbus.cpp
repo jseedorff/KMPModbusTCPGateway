@@ -16,7 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#define Wireless
+//#define Wireless
 
 #include <Mudbus.h>
 
@@ -33,10 +33,6 @@ WiFiServer MbServer(MB_PORT);
 #endif 
 
 Mudbus::Mudbus()
-{
-}
-
-void Mudbus::Begin()
 {
   MbServer.begin();
 }

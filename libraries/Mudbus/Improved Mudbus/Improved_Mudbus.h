@@ -18,53 +18,42 @@
 
 //#define MbDebug
 
-// For Arduino 0022
-// #include "WProgram.h"
-// For Arduino 1.0
 #include "Arduino.h"
 
 #include <SPI.h>
-
-#ifndef Wireless
 #include <Ethernet.h>
-#endif
-
-#ifdef Wireless
-#include <Wifi.h>
-#endif
 
 #ifndef Mudbus_h
 #define Mudbus_h
 
-#define MB_N_R 125 //Max 16 bit registers for Modbus is 125
-#define MB_N_C 128 //Max coils for Modbus is 2000 - dont need that many so here is a multiple of 8
+#define MB_N_C_0x 100 //Max coils for Modbus is 100 due to limited memory
+#define MB_N_I_1x 100 //Max inputs for Modbus is 100 due to limited memory
+#define MB_N_IR_3x 64 //Max 16 bit input registers is 64 due to limited memory
+#define MB_N_HR_4x 64 //Max 16 bit holding registers is 64 due to limited memory
 #define MB_PORT 502
-
-enum MB_FC {
-  MB_FC_NONE           = 0,
-  MB_FC_READ_COILS     = 1,
-  MB_FC_READ_REGISTERS = 3,
-  MB_FC_WRITE_COIL     = 5,
-  MB_FC_WRITE_REGISTER = 6,
-  //Function codes 15 & 16 by Martin Pettersson http://siamect.com
-  MB_FC_WRITE_MULTIPLE_COILS = 15,
-  MB_FC_WRITE_MULTIPLE_REGISTERS = 16
-};
 
 class Mudbus
 {
 public:
-  Mudbus();
-  void Run(); 
-  int  R[MB_N_R];
-  bool C[MB_N_C];  
-  bool Active;    
-  unsigned long PreviousActivityTime;
-  int Runs, Reads, Writes;
-private: 
-  uint8_t ByteArray[260];
-  MB_FC FC;
-  void SetFC(int fc);
+    Mudbus();
+    void Run();
+    bool C[MB_N_C_0x];
+    bool I[MB_N_I_1x];
+    int  IR[MB_N_IR_3x];
+    int  R[MB_N_HR_4x];
+    bool Active, JustReceivedOne;
+    unsigned long PreviousActivityTime;
+    int Runs, Reads, Writes, TotalMessageLength, MessageStart, NoOfBytesToSend;
+    uint8_t Exception;
+private:
+    uint8_t ByteReceiveArray[160];
+    uint8_t ByteSendArray[160];
+    uint8_t SaveArray[160];
+    int FC;
+    void SetFC(int fc);
+    void PopulateSendBuffer(uint8_t *SendBuffer, int NoOfBytes);
+    void buffer_restore();
+    void buffer_save();
 };
 
 #endif
@@ -93,9 +82,10 @@ private:
 04 Message length high  echo
 05 Message length low   num bytes after this
 06 Slave number         echo
-07 Function code        echo
+07 Function code        echo or 80h+echo for exception
 08 Start address high   num bytes of data
 09 Data high
 10 Data low
 **********************************************
 */
+

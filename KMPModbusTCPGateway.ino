@@ -1,4 +1,4 @@
-#define Wireless
+//#define Wireless
 
 #include <KMPSoftwareSerial.h>
 #include <Mudbus.h>
@@ -86,9 +86,6 @@ void setup()
   }
   printWiFiStatus();
   #endif
- 
-  // Open the Wifi card for communication
-  Mb.Begin();
 }
 
 /******************************/
