@@ -67,7 +67,7 @@
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries</Value>
+      <Value>../libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
@@ -77,10 +77,10 @@
       <Value>C:/Program Files (x86)/Arduino/libraries/Ethernet/src</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus/utility</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial/utility</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial</Value>
+      <Value>../libraries/Mudbus/utility</Value>
+      <Value>../libraries/Mudbus</Value>
+      <Value>../libraries/KMPSoftwareSerial/utility</Value>
+      <Value>../libraries/KMPSoftwareSerial</Value>
       <Value>../../KMPModbusTCPGateway</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/ethernet</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
@@ -110,7 +110,7 @@
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries</Value>
+      <Value>../libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
@@ -120,10 +120,10 @@
       <Value>C:/Program Files (x86)/Arduino/libraries/Ethernet/src</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus/utility</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial/utility</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial</Value>
+      <Value>../libraries/Mudbus/utility</Value>
+      <Value>../libraries/Mudbus</Value>
+      <Value>../libraries/KMPSoftwareSerial/utility</Value>
+      <Value>../libraries/KMPSoftwareSerial</Value>
       <Value>../../KMPModbusTCPGateway</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/ethernet</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
@@ -137,7 +137,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/ethernet;../../KMPModbusTCPGateway;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial/utility;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/utility;C:/Program Files (x86)/Arduino/libraries/Ethernet/src;C:/Program Files (x86)/Arduino/libraries/Ethernet/src/utility;C:/Program Files (x86)/Arduino/libraries/WiFi/src;C:/Program Files (x86)/Arduino/libraries/WiFi/src/utility;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/Jakob Seedorff/Documents/Arduino/libraries;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/;c:/program files (x86)/arduino/hardware/tools/avr/avr/;c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include/;;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/ethernet;../../KMPModbusTCPGateway;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial/utility;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/utility;C:/Program Files (x86)/Arduino/libraries/Ethernet/src;C:/Program Files (x86)/Arduino/libraries/Ethernet/src/utility;C:/Program Files (x86)/Arduino/libraries/WiFi/src;C:/Program Files (x86)/Arduino/libraries/WiFi/src/utility;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/Jakob Seedorff/Documents/Arduino/libraries;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/;c:/program files (x86)/arduino/hardware/tools/avr/avr/;c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include/;;C:/Users/Jakob Seedorff/Documents/github/libraries;../libraries/KMPSoftwareSerial;../libraries/KMPSoftwareSerial/utility;../libraries/Mudbus;../libraries/Mudbus/utility;../libraries;</VMSETTING_IncludePaths>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
@@ -166,7 +166,7 @@
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries</Value>
+      <Value>../libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
@@ -176,10 +176,10 @@
       <Value>C:/Program Files (x86)/Arduino/libraries/Ethernet/src</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus/utility</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial/utility</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial</Value>
+      <Value>../libraries/Mudbus/utility</Value>
+      <Value>../libraries/Mudbus</Value>
+      <Value>../libraries/KMPSoftwareSerial/utility</Value>
+      <Value>../libraries/KMPSoftwareSerial</Value>
       <Value>../../KMPModbusTCPGateway</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/ethernet</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
@@ -209,7 +209,7 @@
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
       <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries</Value>
+      <Value>../libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
@@ -219,10 +219,10 @@
       <Value>C:/Program Files (x86)/Arduino/libraries/Ethernet/src</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus/utility</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial/utility</Value>
-      <Value>C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial</Value>
+      <Value>../libraries/Mudbus/utility</Value>
+      <Value>../libraries/Mudbus</Value>
+      <Value>../libraries/KMPSoftwareSerial/utility</Value>
+      <Value>../libraries/KMPSoftwareSerial</Value>
       <Value>../../KMPModbusTCPGateway</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/ethernet</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
@@ -236,7 +236,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/ethernet;../../KMPModbusTCPGateway;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial/utility;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/utility;C:/Program Files (x86)/Arduino/libraries/Ethernet/src;C:/Program Files (x86)/Arduino/libraries/Ethernet/src/utility;C:/Program Files (x86)/Arduino/libraries/WiFi/src;C:/Program Files (x86)/Arduino/libraries/WiFi/src/utility;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/Jakob Seedorff/Documents/Arduino/libraries;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/;c:/program files (x86)/arduino/hardware/tools/avr/avr/;c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include/;;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/ethernet;../../KMPModbusTCPGateway;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/KMPSoftwareSerial/utility;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus;C:/Users/Jakob Seedorff/Documents/Arduino/libraries/Mudbus/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/utility;C:/Program Files (x86)/Arduino/libraries/Ethernet/src;C:/Program Files (x86)/Arduino/libraries/Ethernet/src/utility;C:/Program Files (x86)/Arduino/libraries/WiFi/src;C:/Program Files (x86)/Arduino/libraries/WiFi/src/utility;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/Jakob Seedorff/Documents/Arduino/libraries;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/;c:/program files (x86)/arduino/hardware/tools/avr/avr/;c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include/;;C:/Users/Jakob Seedorff/Documents/github/libraries;../libraries/KMPSoftwareSerial;../libraries/KMPSoftwareSerial/utility;../libraries/Mudbus;../libraries/Mudbus/utility;../libraries;</VMSETTING_IncludePaths>
   </PropertyGroup>
   <ItemGroup>
     <None Include="KMPModbusTCPGateway.ino">
